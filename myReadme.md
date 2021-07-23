@@ -58,3 +58,35 @@ No es necesario ponerle clase a todas las etiquetas. Solo a aquellas etiquetas q
 [Metodologia BEM](https://en.bem.info/methodology/quick-start/)
 
 [Metodologia BEM Stylecheat](https://9elements.com/bem-cheat-sheet/)
+
+## Imagen background
+Una buena practiva cuando usamos:
+```
+background-image: url();
+```
+Una buena practica es añadirle el siguiente codigo:
+```
+background-image: url();
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+```
+### Background-size
+Background-size sirve bastante para manejar de que manera queremos que se vea la imagen en el fondo.
+
+Cover por ejemplo, para que la imagen cubra todo el espacio según el tamaño del contenedor.
+
+**Imagen con cover:**
+
+![enter image description here](https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202020-10-26%20221335-02d64ad3-d0ab-4649-860b-2a06460064e5.jpg)
+
+Contain para que la imagen se ajuste dentre del tamaño del contenedor.
+**Imagen con contain**
+
+![enter image description here](https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202020-10-26%20221434-9169541a-a4d2-4e18-837f-c1812e9beae1.jpg)
+
+### Background-position
+```
+background-position: center;
+```
+Sirve para posicionar una imgen en el centro de su contenedor y siempre este en el centro.
