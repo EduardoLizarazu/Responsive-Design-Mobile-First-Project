@@ -6,7 +6,9 @@
 La arquitectura web se puede definir como la forma en que las páginas de un sitio web están estructuradas y enlazadas entre sí _(de manera lógica y coherente)_. Una arquitectura web ideal ayuda a los usuarios y a los motores de búsqueda a encontrar fácilmente lo que están buscando en un sitio web.
 
 **Arquitectura inicial del proyecto**
+
 [Batabit figma](https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A594)
+
 Entonences analizamos primero el diseño que nos paso el diseñador y vamos viendo como separarlo para ir formando el layout.
 
 - Header
@@ -44,13 +46,15 @@ Finalmente la estructura de carpetas de nuestro proyecto debería quedar de esta
 - index.html
 ```
 ## Agregando estilos tips
-**1. Posicionamiento (Display)** --> static, absolute, relative, fixed.
-**2.  Modelo de caja (Box model)** --> margin, border, padding, content, width, height.
-**3. Tipografia** --> tipos, tamaños de fuente, etc.
-**4. Estilos visuales** --> box-shadow, border-radius, gradient, etc.
-**5. Otros** --> reglas CSS y más.
+1. **Posicionamiento (Display)** --> static, absolute, relative, fixed.
+2. **Modelo de caja (Box model)** --> margin, border, padding, content, width, height.
+3. **Tipografia** --> tipos, tamaños de fuente, etc.
+4. **Estilos visuales** --> box-shadow, border-radius, gradient, etc.
+5. **Otros** --> reglas CSS y más.
 
 ## Implementando BEM
 No es necesario ponerle clase a todas las etiquetas. Solo a aquellas etiquetas que creemos que se **repetiran en el mismo bloque.** Ya que despues podemos llamarlo en CSS con combinadores desendientes. De esta forma nos queda un HTML mas limpio.
+
 [Metodologia BEM](https://en.bem.info/methodology/quick-start/)
+
 [Metodologia BEM Stylecheat](https://9elements.com/bem-cheat-sheet/)
