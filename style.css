@@ -452,5 +452,10 @@ main {
     color: var(--black);
 }
 .plan-card--ca span {
-
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/arrow-right.svg);
+    /* uso vertilcal-align para solucionar el problema de alineamiento */
+    vertical-align: text-bottom;
 }
