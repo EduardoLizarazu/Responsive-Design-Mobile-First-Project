@@ -90,3 +90,36 @@ Contain para que la imagen se ajuste dentre del tamaño del contenedor.
 background-position: center;
 ```
 Sirve para posicionar una imgen en el centro de su contenedor y siempre este en el centro.
+
+[play with background-position](https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-position)
+
+## Seccion de Beneficios
+### Position: absolute y relative
+Cada vez que usemos **Position: absolute** es recomendable ponerle **Position: relative** al contedor padre. Pues **absolute** buscara tomara como referencia al padre con **relative** mas cercano. Entonces para evitar comportamientos extraños ponemos **relative** al contenedor padre y **delimitar su movimiento.**
+### Posicionamiento en el centro
+**Ponemos calc(50% -20px).**  El 50% es para que el contenido este el centro, pero el elemento (icono) mantiene su propia dimencion. Entonces el -20px es para quitarle la propia dimencion del elemento insertado.
+
+## Overflow
+Es cuando hay desvordamiento del contenido porque el contenedor no crece. **El contenido es mas grande que el height de su padre (contenedor),** entonces empieza como a salirse del mismo. 
+Para resolver este problema que tuvimos en el card 4 pusimos ```min-height: 150px;``` esto para que esto sea lo minimo que pueda medir, pero dando le chace para que siga creciendo.
+
+## Overflow-x
+La propiedad de CSS overflow-x establece lo que se muestra cuando el contenido desborda los bordes izquierdo y derecho de un elemento a nivel de bloque. Puede que no sea nada, una barra de desplazamiento o el contenido adicional.
+## Overflow-behavior
+La propiedad de css overscroll-behabior establece lo que hace un navegador cuando alcanza el límite de un área de desplazamiento. Es una abreviatura de overscroll-behavior-x y overscroll-behavior-y.
+## Scroll-snap-type
+```scroll-snap-type: x proximity```
+La propiedad CSS scroll-snap-type establece qué tan estrictamente se aplican los puntos de snap en el contenedor de desplazamiento en caso de que haya uno.
+## Scroll-snap-align: center
+Lo use para que se **centrara el scroll** en los contenedores y no quedara a la mitad.
+## Gap
+Lo use para separar los contenedores, aunque este aun no es valido en algunos navegadores.
+## Otros datos
+Usamos ```vertical-align: text-bottom;``` para alinear el texto que se vio afectado por icono. Esto ocurrio en
+> .plan-card--ca span
+> .plan-card--price span
+
+Tambien use ```overscroll-behavier-x: contain;```
+
+## Google Lighthouse
+Es una herramienta automatizada de código abierto para medir la calidad de las páginas web. Se puede ejecutar en cualquier página web, pública o que requiera autenticación. Google Lighthouse audita el rendimiento, la accesibilidad y la optimización de motores de búsqueda de páginas web.
