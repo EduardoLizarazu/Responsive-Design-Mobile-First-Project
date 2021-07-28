@@ -444,7 +444,7 @@ main {
 .plan-card--price span {
     position: absolute;
     top: -10px;
-    left: 60px;
+    left: calc(50% - 40px);
     font-size: 1.2rem;
     font-weight: 300;
     vertical-align: 25px;
