@@ -116,7 +116,7 @@ main {
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url(./assets/imgs/bitcoin.svg);
+    background-image: url("./assets/imgs/bitcoin.svg");
     /* Buenas practicas usando background-image */
     background-size: cover;
     background-position: center;
@@ -470,7 +470,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(./assets/icons/arrow-right.svg);
+    background-image: url("./assets/icons/arrow-right.svg");
     /* uso vertilcal-align para solucionar el problema de alineamiento */
     vertical-align: text-bottom;
 }
