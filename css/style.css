@@ -90,7 +90,7 @@ header img {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url("./assets/icons/down-arrow.svg");
+    background-image: url("../assets/icons/down-arrow.svg");
 }
 /* MAIN */
 main {
@@ -116,7 +116,7 @@ main {
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url("./assets/imgs/bitcoin.svg");
+    background-image: url("../assets/imgs/bitcoin.svg");
     /* Buenas practicas usando background-image */
     background-size: cover;
     background-position: center;
@@ -196,7 +196,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url("./assets/icons/trending-down.svg");
+    background-image: url("../assets/icons/trending-down.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url("./assets/icons/trending-up.svg");
+    background-image: url("../assets/icons/trending-up.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@ main {
     /* 50% para que este el centro y -20px para quitarle la propia dimencion
     del logotipo y quede realimente en el centro */
     left: calc(50% - 20px);
-    background-image: url("./assets/icons/potato.svg");
+    background-image: url("../assets/icons/potato.svg");
 }
 .product-detail--title {
     width: 90%;
@@ -291,7 +291,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url("./assets/icons/clock.svg");
+    background-image: url("../assets/icons/clock.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -314,7 +314,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url("./assets/icons/eye.svg");
+    background-image: url("../assets/icons/eye.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -324,7 +324,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url("./assets/icons/dollar-sign\ 1.svg");
+    background-image: url("../assets/icons/dollar-sign\ 1.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -334,7 +334,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url("./assets/icons/check-circle.svg");
+    background-image: url("../assets/icons/check-circle.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url("./assets/imgs/bitcoinbabyX2.png");
+    background-image: url("../assets/imgs/bitcoinbabyX2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -470,7 +470,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("./assets/icons/arrow-right.svg");
+    background-image: url("../assets/icons/arrow-right.svg");
     /* uso vertilcal-align para solucionar el problema de alineamiento */
     vertical-align: text-bottom;
 }
